@@ -1,46 +1,46 @@
-# SEE EVENT - College Event Management App
+# SEE EVENT
 
-A responsive web application for discovering and managing college events. Built with HTML5, CSS3, JavaScript, and TailwindCSS.
+A modern web application for discovering and managing college events.
 
-## 🏗️ Project Structure
+## 🌟 Features
+
+- **Event Discovery**: Browse and search for college events
+- **User Profiles**: Manage your profile and preferences
+- **Event Registration**: Easy registration for events
+- **Event Creation**: Create and manage your own events
+- **Responsive Design**: Works on all devices
+
+## 🚀 Live Demo
+
+Visit: https://YOUR_USERNAME.github.io/see-event-app
+
+## 🛠️ Technologies Used
+
+- HTML5, CSS3, JavaScript
+- Tailwind CSS for styling
+- Firebase integration
+- Responsive design principles
+
+## 📁 Project Structure
 
 ```
-UI Interface/
-├── index.html                      # Main entry point (Splash Screen)
-├── assets/                         # Shared resources
-│   ├── css/
-│   │   └── global.css              # All shared styles (~70% code reduction)
-│   ├── js/
-│   │   └── global.js               # All shared functions (~65% code reduction)
-│   └── template.html               # HTML template for new pages
-├── pages/                          # Organized page structure
-│   ├── onboarding/                 # App introduction
-│   │   ├── onboarding-1.html       # Discover Events
-│   │   ├── onboarding-2.html       # Connect & Share
-│   │   └── onboarding-3.html       # Ready to Explore
-│   ├── auth/                       # Authentication
-│   │   ├── login.html              # User login
-│   │   ├── signup.html             # User registration
-│   │   └── forgot-password.html    # Password recovery
-│   ├── home/                       # Main application
-│   │   ├── home.html               # Event discovery & search
-│   │   ├── create-event.html       # Event creation form
-│   │   ├── event-details.html      # Detailed event view
-│   │   ├── filters.html            # Advanced filtering system
-│   │   ├── payment.html            # Payment gateway
-│   │   └── payment-success.html    # Payment confirmation
-│   └── profile/                    # User management
-│       ├── profile.html            # User profile overview
-│       ├── edit-profile.html       # Profile editing
-│       ├── bookmarks.html          # Saved events
-│       ├── feedback.html           # User feedback
-│       ├── my-events.html          # User's created events
-│       └── terms.html              # Terms & conditions
-└── README.md                       # This file
+├── On Boarding/
+├── Login page/
+├── Home Page/
+└── firebase.js
 ```
 
-## 🚀 Key Improvements
+## 🤝 Contributing
 
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the MIT License.
 ### Code Reduction & Optimization
 - **70% CSS reduction**: Consolidated ~400 lines of repeated styles into `global.css`
 - **65% JavaScript reduction**: Combined ~200 lines of common functions into `global.js`
