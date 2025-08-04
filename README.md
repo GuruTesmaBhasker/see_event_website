@@ -12,7 +12,7 @@ A modern web application for discovering and managing college events.
 
 ## 🚀 Live Demo
 
-Visit: https://YOUR_USERNAME.github.io/see-event-app
+Visit: https://gurutesmabhasker.github.io/see-event-app
 
 ## 🛠️ Technologies Used
 
@@ -41,70 +41,70 @@ Visit: https://YOUR_USERNAME.github.io/see-event-app
 ## 📄 License
 
 This project is open source and available under the MIT License.
-### Code Reduction & Optimization
-- **70% CSS reduction**: Consolidated ~400 lines of repeated styles into `global.css`
-- **65% JavaScript reduction**: Combined ~200 lines of common functions into `global.js`
-- **Eliminated duplication**: Removed identical HTML head sections across 20+ files
-- **Standardized naming**: Consistent file naming convention (kebab-case)
 
-### Professional Structure
-- **Organized folders**: Logical grouping by functionality
-- **Shared resources**: Single source of truth for styles and scripts
-- **Template system**: Consistent layout across all pages
-- **Scalable architecture**: Easy to add new pages and features
+---
 
-### Enhanced Features
-- **Responsive design**: Mobile-first approach with breakpoints
-- **Global navigation**: Centralized routing functions
-- **Form validation**: Reusable validation system
-- **Local storage**: Persistent data management
-- **Toast notifications**: User feedback system
-- **Loading states**: Better UX with loading indicators
+**Built with ❤️ for college students**
+- View detailed event information (description, date, time, venue, organizer)
+- Bookmark or save events
+- Generate event passes (QR Code)
+- View upcoming and past events
+- Form teams and communicate through discussion/chat pages
+- Submit feedback and event ratings
+- Receive notifications about events
 
-## 🎨 Design System
+### For Organizers
+- Create and post new events with full details
+- Manage events via a dedicated event dashboard
+- View registration data and control participant flow
+- Scan event passes using QR code scanner
+- Send notifications to registered users
 
-### Colors
-- Primary: `#667eea` (Blue)
-- Secondary: `#764ba2` (Purple)
-- Background: `#FAF9F6` (Off-white)
-- Text: `#374151` (Dark gray)
+---
 
-### Typography
-- Font: Poppins (400, 500, 600, 700, 800)
-- Responsive sizing with `clamp()` functions
-- Consistent line heights and spacing
+## Design & UI
 
-### Components
-- **Buttons**: Primary, secondary, and ghost variants
-- **Cards**: Consistent elevation and border radius
-- **Forms**: Standardized input styling with validation
-- **Navigation**: Unified header and menu patterns
+- Background color: `#FAF9F6`
+- Font: Poppins
+- Text color:
+  - "See": `#D66D4B`
+  - "Event": `#3b3b3b`
 
-## 📱 Responsive Breakpoints
+---
 
-- **Mobile**: ≤ 480px (Phone optimized)
-- **Tablet**: 481px - 1024px (Increased container width)
-- **Desktop**: ≥ 1025px (Centered phone container)
+## App Pages
 
-## 🛠️ Technologies Used
+- Splash Screen  
+- Onboarding Pages  
+- Login Page  
+- Sign Up Page  
+- Home Page  
+- Event Details Page  
+- Search / Filter Page  
+- Profile Page  
+- Edit Profile Page  
+- My Events Page  
+- Create Event Page (Organizers)  
+- Event Management Dashboard (Organizers)  
+- Team Formation Page  
+- Chat / Event Discussion Page  
+- Bookmarks / Saved Events Page  
+- Event Pass / QR Code Page  
+- QR Code Scanner Page (Organizers)  
+- Upcoming & Past Events Page  
+- Feedback & Ratings Page  
+- Notifications Page  
+- Error / No Internet Page  
+- About Us Page  
+- Terms & Conditions / Privacy Policy Page
 
-- **HTML5**: Semantic markup
-- **CSS3**: Modern features (Grid, Flexbox, clamp())
-- **JavaScript**: ES6+ features
-- **TailwindCSS**: Utility-first CSS framework
-- **Google Fonts**: Poppins font family
-- **SVG Icons**: Scalable vector graphics
 
-## 🔧 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/GuruTesmaBhasker/SEE_EVENT.git
-   ```
+---
 
-2. **Open in VS Code**
-   ```bash
-   cd SEE_EVENT
+## License
+
+This project is open for learning, academic, and portfolio purposes.
    code .
    ```
 
